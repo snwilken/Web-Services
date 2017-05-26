@@ -211,7 +211,8 @@ namespace Eventual_WebAPI.Controllers
 
         private bool UserExists(int id)
         {
-            //this is just a test
+            //adding some extra shtuufffff!
+            ///this is some more shtuffff!
             return db.Users.Count(e => e.UserID == id) > 0;
         }
 
